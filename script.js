@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "EURUSD": 10, "EURGBP": 12.61, "EURJPY": 6.67, "GBPUSD": 10, "GBPJPY": 6.67, "USDJPY": 6.67, "USDCAD": 6.93,
     "XAUUSD": 10, "XAGUSD": 50, "XTIUSD": 10, "XBRUSD": 10, "XNGUSD": 10,
     "US500": 1, "US30": 1, "NAS100": 1, "GER40": 1.04, "UK100": 1.26,
-    "BTCUSD": 100 
+    "BTCUSD": 1 
   };
 
   const assets = {
