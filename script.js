@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const assets = {
-    "forex": ["EURUSD", "EURGBP", "EURJPY", "GBPUSD", "GBPJPY", "USDJPY", "USDCAD"],
     "commodities": ["XAUUSD", "XAGUSD", "XTIUSD", "XBRUSD", "XNGUSD"],
+    "forex": ["EURUSD", "EURGBP", "EURJPY", "GBPUSD", "GBPJPY", "USDJPY", "USDCAD"],
     "indices": ["US30", "US500", "NAS100", "UK100", "GER40"],
     "crypto": ["BTCUSD"]
   };
