@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const resultSection = document.querySelector(".result");
   const riskDisplay = document.querySelector(".risk-display");
 
-  // Update UI/UX with modern styling and gradient effect
   calculatorDiv.style.background = "linear-gradient(to right, #1c3f5f, #0a1621)";
   calculatorDiv.style.padding = "40px";
   calculatorDiv.style.borderRadius = "15px";
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
   calculatorDiv.style.width = "400px";
   calculatorDiv.style.textAlign = "center";
 
-  // Make all input fields the same width as asset type select
   inputFields.forEach(field => {
     field.style.width = "100%";
     field.style.background = "linear-gradient(to right, #1c3f5f, #0a1621)";
@@ -29,14 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
     field.style.boxSizing = "border-box";
   });
 
-  // Add gradient effect to result section
   resultSection.style.background = "linear-gradient(to right, #1c3f5f, #0a1621)";
   resultSection.style.padding = "15px";
   resultSection.style.borderRadius = "5px";
   resultSection.style.color = "#00ff88";
   resultSection.style.fontWeight = "bold";
 
-  // Add gradient effect and size adjustment to risk amount display
   riskDisplay.style.background = "linear-gradient(to right, #1c3f5f, #0a1621)";
   riskDisplay.style.padding = "10px";
   riskDisplay.style.borderRadius = "5px";
@@ -46,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
   riskDisplay.style.width = "100%";
   riskDisplay.style.boxSizing = "border-box";
 
-  // Add logo image on top
   const logoImg = document.createElement("img");
   logoImg.src = "https://assets.onecompiler.app/43ac9brbf/43ac9cbyd/skill-centric-png-logo-1024x224.png"; // Update with actual logo path
   logoImg.alt = "Forex Calculator Logo";
