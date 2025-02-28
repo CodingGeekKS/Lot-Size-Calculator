@@ -92,7 +92,7 @@ select {
   border-radius: 5px;
   width: 100%;
   box-sizing: border-box;
-  appearance: none; /* Removes default browser styling */
+  appearance: none;
 }
 
 select option {
@@ -101,17 +101,17 @@ select option {
 }
 
 .risk-display span{
-  color: #fff; /* Risk Amount text color */
+  color: #fff;
 }
 
 .result p {
-  color: white; /* Result text color */
+  color: white;
 }
 
 .risk-display label {
-  color: #5c9bf8; /* Risk Amount heading color */
+  color: #5c9bf8;
 }
 
 .result h2 {
-  color: #5c9bf8; /* Result heading color */
+  color: #5c9bf8;
 }
